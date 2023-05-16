@@ -1,0 +1,303 @@
+/* CONFIGURAÇÕES GERAIS */
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.flex-column2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/* TELA 01 */
+.home {
+    height: 900px;
+    background-image: url('../images/The-Last-Of-Us-HBO-Wallpaper-13\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+    height: 100%;
+}
+
+header > figure > img {
+    height: 144px;
+    width: 254px;
+}
+
+nav {
+    width: 70%;
+}
+
+nav > ul {
+    width: 70%;
+}
+
+nav > ul > li > a {
+    color: var(--color-grey-2);
+    font-family: Iceland;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+}
+
+ul > li > a:hover{
+    font-weight: 600;
+}
+
+main {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1 {
+    width: 668px;
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 92px;
+    line-height: 89px;
+    color: var(--color-grey-2);
+}
+
+main > p {
+    width: 506px;
+    height: 53px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    color: var(--text-color-1);
+}
+
+button {
+    height: 46px;
+    width: 180px;
+    left: 5002px;
+    top: 23px;
+    color: var(--color-grey-2);
+    margin-top: 10px;
+    margin-right: 10px;
+    font-family: Iceland;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.active{
+    background-color: var(--color-secondary);
+}
+
+.active:hover{
+    border: 2px solid var(--color-grey-2);
+}
+
+.inactive {
+    background-color: var(--color-grey-1);
+}
+
+.inactive:hover{
+    border: 2px solid var(--color-grey-2);
+}
+
+main > section {
+    margin-top: 100px;
+}
+
+h3 {
+    width: 336px;
+    height: 65px;
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 25px;
+    color: var(--color-grey-2);
+}
+
+section > ul {
+    width: 800px;
+}
+
+section > ul > li {
+    height: 139px;
+    width: 261px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} 
+
+.survival {
+    background-image: url(../images/EP\ 2\ 2.png);
+    text-align: center;
+    font-size: 22px;
+    color: var(--color-grey-4);
+    align-items: center;
+}
+
+.relationship {
+    background-image: url(../images/the-last-of-us\ 1.png);
+    text-align: center;
+    font-size: 22px;
+    color: var(--color-grey-4);
+    align-items: center;
+    
+}
+
+.adventure {
+    background-image: url(../images/FF3P7D3VJ5DZ5FGALN2YYQU3ZM\ 1.png);
+    text-align: center;
+    font-size: 22px;
+    color: var(--color-grey-4);
+    align-items: center;
+}
+
+/* TELA 02 */
+.episodes {
+    height: 900px;
+    background-image: url('../images/1212581-the-last-of-us\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+}
+
+.posts {
+    height: 546px;
+    width: 479px;
+    margin-top: 80px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.posts > p {
+    color: var(--color-grey-2);
+    width: 479px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 30px;
+
+}
+
+.episodes-list {
+    height: 762px;
+    width: 671px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.card{
+    height: 182px;
+    width: 650px;
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    background-color: var(--color-grey-3);
+}
+
+.card > img {
+    width: 250px;
+    border-radius: 12px;
+}
+
+.card-text{
+    width: 60%;
+    height: 80%;
+    margin: 20px;
+}
+
+.card-text > h4 {
+    height: 30px;
+    font-family: 'Darker Grotesque';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: var(--color-grey-2);
+}
+
+.card-text > p {
+    height: 88px;
+    width: 324px;
+    left: 5690px;
+    top: 639px;
+    border-radius: nullpx;
+    font-family: 'Darker Grotesque';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-grey-2);
+}
+
+.episodes-list::-webkit-scrollbar{
+    background-color: var(--color-secondary);
+    border-radius: 20px;
+    border: 3px solid black;
+}
+
+/* TELA 03 */
+footer{
+    height: 377px;
+    background: linear-gradient(180deg, #000000 0%, #950202 289.06%);
+}
+
+footer > figure > img {
+    height: 140px;
+    width: 140px;
+}
+
+.flex-column2 > h2 {
+    height: 47px;
+    width: 668px;
+    left: 5446px;
+    font-family: 'Iceland';
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-grey-2);
+}
+
+.flex-column2 > h3 {
+    height: 31px;
+    width: 449px;
+    font-family: 'Iceland';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 31px;
+    text-align: center;
+    color: var(--color-grey-2);
+    margin: 0 auto;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
